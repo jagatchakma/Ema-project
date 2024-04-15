@@ -15,6 +15,7 @@ import LogInPage from './components/LogInPage/LogInPage.jsx';
 import HomePage from './components/Layout/HomePage.jsx';
 import Home from './components/Layout/Home.jsx';
 import cartProductLoader from './Loaders/cartProductLoader.js';
+import ProceedCheckout from './components/ProceedCheckout/ProceedCheckout.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: '/login',
         element: <LogInPage></LogInPage>
+      },
+      {
+        path: '/proceedcheckout',
+        element: <ProceedCheckout></ProceedCheckout>
       }
     ]
   },
